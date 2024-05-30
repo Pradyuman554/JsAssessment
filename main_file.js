@@ -39,7 +39,10 @@ function getTotalNFTs(){
 mintNFTs("BTC", 15000 , 22000, [15000, 17000, 22000]);  //Add Bitcoin
 mintNFTs("ETH", 19000 , 24000, [16000, 17000, 24000]);  //Add Ethereum
 mintNFTs("ADA", 20000 , 25000, [11000, 11000, 25000]);  //Add Ada
+
 mintNFTs("DOGE", 22000 , 26000, [16000, 17000, 26000]);  //Add Dogecoin
 
 listNFTs();  //Print the Wallet (minted NFTs)
 getTotalNFTs();  //Print length of Wallet
+
+//Note that these comments aren't in my explanation video, as there I have explained THE CODE MYSELF. However when storing the code its important to DOCUMENT. Hence I have included explanatory comments here. (I had made the video before including the comments)
